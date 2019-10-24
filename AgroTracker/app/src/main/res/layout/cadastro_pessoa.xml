@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ED4CAF50"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/cPesText1"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enterprise_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/cPesText2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_email"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <TextView
+        android:id="@+id/cPesText3"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="@string/prompt_password"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+    <EditText
+        android:id="@+id/pesName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:outlineSpotShadowColor="@android:color/white"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <EditText
+        android:id="@+id/pesMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:outlineSpotShadowColor="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <EditText
+        android:id="@+id/pesSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:outlineSpotShadowColor="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
