@@ -1,15 +1,12 @@
 package com.example.agrotracker;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.app.Activity;
 
-public class cadastroEmpresa extends Activity {
+public class leitorQR extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cadastro_empresa);
-    }
-
-    public static class cadastroProduto extends Activity {
     }
 }

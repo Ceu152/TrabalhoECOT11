@@ -33,13 +33,16 @@ public class telaCadastro extends Activity {
                     case 0:
                         break;
                     case 1:
-                        System.out.println(position);
-                        Intent intent = new Intent(selectedItemView.getContext(), cadastroEmpresa.class);
-                        startActivity(intent);
+                        Intent intent1 = new Intent(selectedItemView.getContext(), cadastroEmpresa.class);
+                        startActivity(intent1);
                         break;
                     case 2:
+                        Intent intent2 = new Intent(selectedItemView.getContext(), cadastroProdutor.class);
+                        startActivity(intent2);
                         break;
                     case 3:
+                        Intent intent3 = new Intent(selectedItemView.getContext(), cadastroPessoa.class);
+                        startActivity(intent3);
                         break;
                     default:
 

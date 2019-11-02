@@ -10,36 +10,55 @@
 
     <TextView
         android:id="@+id/cPesText1"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="208dp"
         android:text="@string/enterprise_name"
         android:textColor="@android:color/white"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="244dp" />
+        tools:text="@string/nome" />
 
     <TextView
         android:id="@+id/cPesText2"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
         android:text="@string/prompt_email"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="313dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pesName"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/cPesText3"
-        android:layout_width="411dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/prompt_password"
         android:textColor="@android:color/white"
         android:textSize="18sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pesMail"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cPesText6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pesSenha"
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -60,8 +79,8 @@
         android:text="Name"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintStart_toStartOf="@+id/cPesText1"
+        app:layout_constraintTop_toBottomOf="@+id/cPesText1" />
 
     <EditText
         android:id="@+id/pesMail"
@@ -73,8 +92,8 @@
         android:outlineSpotShadowColor="@android:color/white"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="337dp" />
+        app:layout_constraintStart_toStartOf="@+id/cPesText2"
+        app:layout_constraintTop_toBottomOf="@+id/cPesText2" />
 
     <EditText
         android:id="@+id/pesSenha"
@@ -86,8 +105,21 @@
         android:outlineSpotShadowColor="@android:color/white"
         android:textColor="@android:color/white"
         android:textColorHint="@android:color/white"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="406dp" />
+        app:layout_constraintStart_toStartOf="@+id/cPesText3"
+        app:layout_constraintTop_toBottomOf="@+id/cPesText3" />
 
-
+    <EditText
+        android:id="@+id/prodPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:outlineSpotShadowColor="@android:color/white"
+        android:text="@string/phone_number"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        app:layout_constraintStart_toStartOf="@+id/cPesText6"
+        app:layout_constraintTop_toBottomOf="@+id/cPesText6"
+        tools:ignore="TextFields" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,4 +16,6 @@
     <string name="physical_address">Endereço</string>
     <string name="account_choise">Escolha o tipo de conta:</string>
     <string name="sing_up">Realize seu cadastro</string>
+    <string name="cpf_num">CPF</string>
+    <string name="nome">Nome</string>
 </resources>
