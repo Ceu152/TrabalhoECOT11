@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ED4CAF50"
+    android:background="@mipmap/background"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -120,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="95dp"
-        android:layout_marginEnd="128dp"
+        android:layout_marginEnd="72dp"
         android:foregroundTint="#FFFFFF"
         android:text="AGROTRACKER"
         android:textColor="#FFFFFF"
@@ -128,5 +128,22 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/loading"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/searchImageButton"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="?android:selectableItemBackground"
+        android:padding="1dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/configuracao"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

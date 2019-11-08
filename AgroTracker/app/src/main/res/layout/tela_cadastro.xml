@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ED4CAF50"
+    android:background="@mipmap/background"
     android:orientation="vertical">
 
     <TextView
@@ -16,7 +16,7 @@
         android:gravity="center"
         android:text="@string/sing_up"
         android:textColor="@android:color/white"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/cadText2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:layout_marginBottom="80dp"
         android:gravity="center"
         android:text="@string/account_choise"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/cadSpinner1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,20 +43,20 @@
 
     <Spinner
         android:id="@+id/cadSpinner1"
-        android:layout_width="480dp"
-        android:layout_height="100dp"
+        android:layout_width="372dp"
+        android:layout_height="57dp"
         android:layout_marginTop="315dp"
         android:layout_marginBottom="300dp"
         android:focusable="auto"
         android:gravity="center"
+        android:background ="@null"
         android:textColor="@android:color/white"
-        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.Guideline

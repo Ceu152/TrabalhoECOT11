@@ -14,8 +14,11 @@
     <string name="enterprise_id">CNPJ</string>
     <string name="phone_number">Telefone</string>
     <string name="physical_address">Endereço</string>
-    <string name="account_choise">Escolha o tipo de conta:</string>
-    <string name="sing_up">Realize seu cadastro</string>
+    <string name="account_choise">ESCOLHA O TIPO DA CONTA:</string>
+    <string name="sing_up">REALIZE SEU CADASTRO</string>
     <string name="cpf_num">CPF</string>
     <string name="nome">Nome</string>
+    <string name="consultar_produto">Consultar Produto</string>
+    <string name="consultar_produtor">Consultar Produtor</string>
+    <string name="scanear_produto">Scanear Produto</string>
 </resources>
